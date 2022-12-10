@@ -317,24 +317,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\48562\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\48562\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "0.2.10",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
+      "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
       "projectName": "XFiler.BaseStyle",
-      "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
+      "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
       "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\obj\\",
+      "outputPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -348,8 +343,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+            "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
             }
           }
         }
@@ -374,20 +369,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -396,7 +377,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SpCjffPUZP5t1xAxUk8xm7qN0Wj/yGHkdObBj09Sw+U82x5r8DCMUTGrkonAD5/NjhAVA2Mgz8LHTN0TagK2SA==",
+  "dgSpecHash": "6h4fi2J1+7zDOMEw6eooDfqqnTYlaR5oCQKz5wJeNQFqcCiIKINGasM7+nQA15Wln0olnB5XPeHDeGwFSgsT6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
+  "projectFilePath": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\48562\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\dragablzf\\0.1.0.1\\dragablzf.0.1.0.1.nupkg.sha512",
@@ -12,10 +12,7 @@
     "C:\\Users\\48562\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+    "C:\\Users\\48562\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
