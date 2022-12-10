@@ -30,7 +30,7 @@ jobs:
         run: nuget restore XFiler.sln
 
       - name: Build the Solution lab1
-        run: msbuild XFiler.sln  /p:Configuration=Debug  /t:Restore
+        run: msbuild XFiler.sln  
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
