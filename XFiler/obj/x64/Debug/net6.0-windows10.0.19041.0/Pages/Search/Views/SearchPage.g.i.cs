@@ -53,7 +53,7 @@ namespace XFiler.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XFiler;V0.2.10.0;component/pages/search/views/searchpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XFiler;component/pages/search/views/searchpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\..\Pages\Search\Views\SearchPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
