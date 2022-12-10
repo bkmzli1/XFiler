@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ENxl4W2qxcrc93L99z//f/UTrJXnXxZnry2wo2xoVu8vwf39D/qMjLHNzCyt11vSrzhlpU9zM8eCbOGLeeBwcQ==",
+  "dgSpecHash": "xzh9Z+FcBlJIKll9YfubbhUph1DOMzP+FJ5oqjfhMBT9X9v/UywkVpyjmT73+5z1Qg4k234QPf7cADIqiA1dmw==",
   "success": true,
   "projectFilePath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,10 @@
     "C:\\Users\\48562\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\virtualizingwrappanel\\1.5.5\\virtualizingwrappanel.1.5.5.nupkg.sha512"
+    "C:\\Users\\48562\\.nuget\\packages\\virtualizingwrappanel\\1.5.5\\virtualizingwrappanel.1.5.5.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
   ],
   "logs": []
 }

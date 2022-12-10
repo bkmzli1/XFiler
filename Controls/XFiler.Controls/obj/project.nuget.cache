@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5j71smOYh4O1dLp9zikvhsqjpbRWwbOSJ418BsnsgMHvuVBoe+1dEkKLyawZvyto+GSN16gDk5A67QQNoK0F4A==",
+  "dgSpecHash": "i3iuL0dBCB8nPu9cvoY3quJ+A0UL9NYE7p2j6Rs3JbJQ4mvJowRN1+tUc9DrYp4bSI5ilT1Ff4lbwfN41d0waw==",
   "success": true,
   "projectFilePath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
