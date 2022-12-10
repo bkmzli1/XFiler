@@ -56,7 +56,7 @@ namespace XFiler {
             
             #line default
             #line hidden
-            System.Uri resourceLocater = new System.Uri("/XFiler;component/app.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XFiler;V0.2.10.0;component/app.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\App.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

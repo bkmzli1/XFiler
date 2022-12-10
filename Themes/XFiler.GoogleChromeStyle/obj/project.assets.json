@@ -535,11 +535,11 @@
   "project": {
     "version": "0.2.10",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj",
+      "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj",
       "projectName": "XFiler.GoogleChromeStyle",
-      "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj",
+      "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj",
       "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\obj\\",
+      "outputPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.GoogleChromeStyle\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -560,11 +560,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj"
+            "C:\\Users\\48562\\RiderProjects\\XFiler\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Controls\\XFiler.Controls\\XFiler.Controls.csproj"
             },
-            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+            "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
             }
           }
         }
@@ -603,20 +603,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

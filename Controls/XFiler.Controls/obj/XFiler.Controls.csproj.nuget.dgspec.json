@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {}
+    "C:\\Users\\48562\\RiderProjects\\XFiler\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
+    "C:\\Users\\48562\\RiderProjects\\XFiler\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
       "version": "0.2.10",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj",
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\XFiler\\Controls\\XFiler.Controls\\XFiler.Controls.csproj",
         "projectName": "XFiler.Controls",
-        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Controls\\XFiler.Controls\\XFiler.Controls.csproj",
         "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\obj\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Controls\\XFiler.Controls\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,20 +54,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

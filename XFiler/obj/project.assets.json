@@ -2275,11 +2275,11 @@
   "project": {
     "version": "0.2.10",
     "restore": {
-      "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj",
+      "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\XFiler\\XFiler\\XFiler.csproj",
       "projectName": "XFiler",
-      "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj",
+      "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\XFiler\\XFiler.csproj",
       "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\obj\\",
+      "outputPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\XFiler\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2300,17 +2300,17 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj"
+            "C:\\Users\\48562\\RiderProjects\\XFiler\\Plugins\\XFiler.Base\\XFiler.Base.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Plugins\\XFiler.Base\\XFiler.Base.csproj"
             },
-            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+            "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
             },
-            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj"
+            "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj"
             },
-            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj": {
-              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj"
+            "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj"
             }
           }
         }
@@ -2380,24 +2380,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
-          },
-          {
             "name": "Microsoft.Windows.SDK.NET.Ref",
             "version": "[10.0.19041.27, 10.0.19041.27]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.11, 6.0.11]"
           }
         ],
         "frameworkReferences": {

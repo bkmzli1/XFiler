@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {}
+    "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {}
   },
   "projects": {
-    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+    "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
       "version": "0.2.10",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
         "projectName": "XFiler.SDK",
-        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
         "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\obj\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -85,20 +85,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -111,14 +97,14 @@
         }
       }
     },
-    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {
+    "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {
       "version": "0.2.10",
       "restore": {
-        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
         "projectName": "XFiler.BaseStyle",
-        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
         "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\obj\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\Themes\\XFiler.BaseStyle\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -139,8 +125,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
-                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+              "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
               }
             }
           }
@@ -165,20 +151,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.11, 6.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
