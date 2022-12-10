@@ -48,19 +48,27 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
-      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
-        uses: actions/setup-dotnet@v3
+
+      - name: 'Print manual run reason'
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          echo 'Reason: ${{ github.event.inputs.reason }}'
+
+      - name: .NET code metrics
+        id: dotnet-code-metrics
+        uses: dotnet/samples/github-actions/DotNet.GitHubAction@main
+        env:
+          GREETINGS: 'Hello, .NET developers!' # ${{ secrets.GITHUB_TOKEN }}
         with:
-          dotnet-version: ${{ matrix.dotnet-version }}
-      - name: Install dependencies
-        run: dotnet restore
-      - name: Build
-        run: dotnet build --configuration Release --no-restore
-      - name: Test
-        run: dotnet test --no-restore --verbosity normal
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+          owner: ${{ github.repository_owner }}
+          name: ${{ github.repository }}
+          branch: ${{ github.ref }}
+          dir: ${{ './github-actions/DotNet.GitHubAction' }}
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v4
+        if: ${{ steps.dotnet-code-metrics.outputs.updated-metrics }} == 'true'
         with:
-          name: labX
-          path: |
-            **/bin
+          title: '${{ steps.dotnet-code-metrics.outputs.summary-title }}'
+          body: '${{ steps.dotnet-code-metrics.outputs.summary-details }}'
+          commit-message: '.NET code metrics, automated pull request.'
