@@ -29,10 +29,10 @@ C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-win
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\XFiler.Base.AssemblyInfo.cs
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\XFiler.Base.csproj.CoreCompileInputs.cache
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\XFiler.Base.csproj.Fody.CopyLocal.cache
+C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\ru\XFiler.Base.resources.cs
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\ru\XFiler.Base.resources.dll
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\XFiler.Base.csproj.CopyComplete
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\XFiler.Base.dll
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\refint\XFiler.Base.dll
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\XFiler.Base.pdb
 C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\ref\XFiler.Base.dll
-C:\Users\48562\RiderProjects\XFiler\Plugins\XFiler.Base\obj\x64\Debug\net6.0-windows\ru\XFiler.Base.resources.cs

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BqIdWyTjgzdgCVWGJkBHFuEiZl6LEJZjkq/H5jMVdIyHtqgkWZ3Jei81hj3a6qoxXGlC+aIxbajSJcY5Adb9SQ==",
+  "dgSpecHash": "vpTw4f3SYAG6IU07JzmD6qTb7dSC3B460AzGxQ7n2sU4c4BhqnPj+ay9jtryX0wF67eQ5Bi14tkt3buE5yLWHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\48562\\RiderProjects\\XFiler\\XFiler.Package\\XFiler.Package.wapproj",
   "expectedPackageFiles": [
@@ -14,8 +14,7 @@
     "C:\\Users\\48562\\.nuget\\packages\\hardcodet.notifyicon.wpf\\1.1.0\\hardcodet.notifyicon.wpf.1.1.0.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\litedb\\5.0.11\\litedb.5.0.11.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0-rc.1.21451.13\\microsoft.win32.systemevents.6.0.0-rc.1.21451.13.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22489-preview\\microsoft.windows.sdk.buildtools.10.0.22489-preview.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.37\\microsoft.xaml.behaviors.wpf.1.1.37.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
@@ -27,15 +26,10 @@
     "C:\\Users\\48562\\.nuget\\packages\\system.codedom\\6.0.0-rc.2.21480.5\\system.codedom.6.0.0-rc.2.21480.5.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\system.drawing.common\\6.0.0-rc.1.21451.13\\system.drawing.common.6.0.0-rc.1.21451.13.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\system.management\\6.0.0-rc.2.21480.5\\system.management.6.0.0-rc.2.21480.5.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\theraot.core\\3.2.9\\theraot.core.3.2.9.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\vanara.core\\3.3.14\\vanara.core.3.3.14.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\vanara.pinvoke.comctl32\\3.3.14\\vanara.pinvoke.comctl32.3.3.14.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\vanara.pinvoke.cryptography\\3.3.14\\vanara.pinvoke.cryptography.3.3.14.nupkg.sha512",
@@ -60,154 +54,217 @@
       "message": "XFiler.Package зависит от Microsoft.Windows.SDK.BuildTools (>= 10.0.22414.2000-preview.rs-prerelease), но Microsoft.Windows.SDK.BuildTools 10.0.22414.2000-preview.rs-prerelease не найден. Использовано наилучшее приближенное соответствие Microsoft.Windows.SDK.BuildTools 10.0.22489-preview.",
       "libraryId": "Microsoft.Windows.SDK.BuildTools",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134",
-        "UAP,Version=v10.0.17134/win10-arm",
-        "UAP,Version=v10.0.17134/win10-arm-aot",
-        "UAP,Version=v10.0.17134/win10-arm64-aot",
-        "UAP,Version=v10.0.17134/win10-x64",
-        "UAP,Version=v10.0.17134/win10-x64-aot",
-        "UAP,Version=v10.0.17134/win10-x86",
-        "UAP,Version=v10.0.17134/win10-x86-aot"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"ControlzEx 4.4.0\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"Autofac 6.3.0\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ControlzEx 4.4.0\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "ControlzEx",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"DragablzF 0.1.0.1\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "DragablzF",
-      "targetGraphs": [
-        "UAP,Version=v10.0.17134"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"Egorozh.Windows.FileOperations 0.1.0\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"Egorozh.Windows.FileOperations 0.1.0\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "Egorozh.Windows.FileOperations",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Egorozh.Windows.ImageOperations 0.1.0\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"Egorozh.Windows.ImageOperations 0.1.0\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "Egorozh.Windows.ImageOperations",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"FluentWPF 0.10.2\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"FluentWPF 0.10.2\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "FluentWPF",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"gong-wpf-dragdrop 2.4.3\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"gong-wpf-dragdrop 2.4.3\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "gong-wpf-dragdrop",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Hardcodet.NotifyIcon.Wpf 1.1.0\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"Hardcodet.NotifyIcon.Wpf 1.1.0\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "Hardcodet.NotifyIcon.Wpf",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"MahApps.Metro 2.4.9\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"LiteDB 5.0.11\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "LiteDB",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MahApps.Metro 2.4.9\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "MahApps.Metro",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Microsoft.Xaml.Behaviors.Wpf 1.1.37\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"Microsoft.Win32.SystemEvents 6.0.0-rc.1.21451.13\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Microsoft.Win32.SystemEvents",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"Microsoft.Xaml.Behaviors.Wpf 1.1.37\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "Microsoft.Xaml.Behaviors.Wpf",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"SharpClipboard 3.5.2\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "SharpClipboard",
+      "message": "Пакет \"Prism.Core 8.1.97\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Prism.Core",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"SharpVectors.Reloaded 1.7.6\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "SharpVectors.Reloaded",
+      "message": "Пакет \"Serilog 2.10.0\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Serilog",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"SingleInstanceHelper 1.0.3\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"Serilog.Sinks.File 5.0.0\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "Serilog.Sinks.File",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"SingleInstanceHelper 1.0.3\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "SingleInstanceHelper",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"Vanara.Windows.Shell 3.3.14\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "Vanara.Windows.Shell",
+      "message": "Пакет \"System.CodeDom 6.0.0-rc.2.21480.5\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "System.CodeDom",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     },
     {
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"VirtualizingWrapPanel 1.5.5\" был восстановлен с помощью \".NETCoreApp,Version=v3.1, .NETCoreApp,Version=v3.0, .NETCoreApp,Version=v2.0, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, net7.0-windows10.0.20348, .NETFramework,Version=v4.6.1\", а не целевой платформы проекта \"UAP,Version=v10.0.17134\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"System.Diagnostics.DiagnosticSource 4.7.1\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "System.Diagnostics.DiagnosticSource",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"System.Drawing.Common 6.0.0-rc.1.21451.13\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"System.Management 6.0.0-rc.2.21480.5\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "System.Management",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"System.Text.Json 4.7.2\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"VirtualizingWrapPanel 1.5.5\" был восстановлен с помощью \"net7.0-windows10.0.20348\", а не целевой платформы проекта \".NETFramework,Version=v4.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "VirtualizingWrapPanel",
       "targetGraphs": [
-        "UAP,Version=v10.0.17134"
+        ".NETFramework,Version=v4.0"
       ]
     }
   ]

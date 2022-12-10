@@ -95,6 +95,7 @@ C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.1904
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.AssemblyInfo.cs
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.csproj.CoreCompileInputs.cache
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.csproj.Fody.CopyLocal.cache
+C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\ru\XFiler.resources.cs
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\ru\XFiler.resources.dll
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.csproj.CopyComplete
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.dll
@@ -102,4 +103,3 @@ C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.1904
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.pdb
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.genruntimeconfig.cache
 C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\ref\XFiler.dll
-C:\Users\48562\RiderProjects\XFiler\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\ru\XFiler.resources.cs

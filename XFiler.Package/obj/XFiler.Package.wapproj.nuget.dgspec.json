@@ -414,15 +414,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net451"
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "uap10.0.17134": {
-            "targetAlias": "net451",
+          "net40": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {
               "C:\\Users\\48562\\RiderProjects\\XFiler\\XFiler\\XFiler.csproj": {
                 "projectPath": "C:\\Users\\48562\\RiderProjects\\XFiler\\XFiler\\XFiler.csproj"
@@ -437,8 +437,8 @@
         }
       },
       "frameworks": {
-        "uap10.0.17134": {
-          "targetAlias": "net451",
+        "net40": {
+          "targetAlias": "net6.0-windows",
           "dependencies": {
             "Microsoft.Windows.SDK.BuildTools": {
               "suppressParent": "All",
@@ -447,43 +447,11 @@
             }
           },
           "imports": [
-            "netcoreapp3.1",
-            "netcoreapp3.0",
-            "netcoreapp2.0",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net7.0-windows10.0.20348",
-            "net461"
+            "net7.0-windows10.0.20348"
           ],
           "assetTargetFallback": true,
           "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win10-arm": {
-          "#import": []
-        },
-        "win10-arm-aot": {
-          "#import": []
-        },
-        "win10-arm64-aot": {
-          "#import": []
-        },
-        "win10-x64": {
-          "#import": []
-        },
-        "win10-x64-aot": {
-          "#import": []
-        },
-        "win10-x86": {
-          "#import": []
-        },
-        "win10-x86-aot": {
-          "#import": []
         }
       }
     },

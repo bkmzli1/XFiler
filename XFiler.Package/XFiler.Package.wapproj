@@ -48,7 +48,6 @@
   <PropertyGroup>
     <WapProjPath Condition="'$(WapProjPath)'==''">$(MSBuildExtensionsPath)\Microsoft\DesktopBridge\</WapProjPath>
   </PropertyGroup>
-  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.props" />
   <PropertyGroup>
     <ProjectGuid>dd2a5725-11ea-450f-8e37-458176e9f773</ProjectGuid>
     <TargetPlatformVersion>10.0.20348.0</TargetPlatformVersion>
@@ -166,7 +165,7 @@
     <Content Include="Images\Wide310x150Logo.scale-200.png" />
     <Content Include="Images\Wide310x150Logo.scale-400.png" />
   </ItemGroup>
-  <Import Project="$(WapProjPath)\Microsoft.DesktopBridge.targets" />
+ 
   <ItemGroup>
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.22414.2000-preview.rs-prerelease" PrivateAssets="all" />
   </ItemGroup>

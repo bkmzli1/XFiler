@@ -42,10 +42,10 @@ C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debu
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\XFiler.GoogleChromeStyle.AssemblyInfoInputs.cache
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\XFiler.GoogleChromeStyle.AssemblyInfo.cs
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\XFiler.GoogleChromeStyle.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\ru\XFiler.GoogleChromeStyle.resources.cs
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\ru\XFiler.GoogleChromeStyle.resources.dll
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\XFiler.GoogleChromeStyle.csproj.CopyComplete
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\XFiler.GoogleChromeStyle.dll
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\refint\XFiler.GoogleChromeStyle.dll
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\XFiler.GoogleChromeStyle.pdb
 C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\ref\XFiler.GoogleChromeStyle.dll
-C:\Users\48562\RiderProjects\XFiler\Themes\XFiler.GoogleChromeStyle\obj\x64\Debug\net6.0-windows\ru\XFiler.GoogleChromeStyle.resources.cs
