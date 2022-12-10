@@ -16,5 +16,5 @@ C:\Users\48562\RiderProjects\X-Filer\src\XFiler\App.xaml
 25167471698
 Pages\DispatcherPage\Views\BookmarksDispatcherPage.xaml;Pages\Explorer\Views\ExplorerPage.xaml;Pages\MyComputer\Views\MyComputerPage.xaml;Pages\Search\Views\SearchPage.xaml;Pages\Settings\Views\SettingsPage.xaml;Resources\Icons.xaml;Resources\TrayIcon.xaml;Tabs\Views\TabsControl.xaml;Tab\Views\TabControl.xaml;Windows\MainWindow.xaml;
 
-False
+True
 

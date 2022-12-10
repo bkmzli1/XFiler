@@ -63,7 +63,7 @@ namespace XFiler {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XFiler;component/tab/views/tabcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XFiler;V0.2.10.0;component/tab/views/tabcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Tab\Views\TabControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

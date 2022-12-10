@@ -58,7 +58,8 @@ namespace XFiler.DispatcherPage {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XFiler;component/pages/dispatcherpage/views/bookmarksdispatcherpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XFiler;V0.2.10.0;component/pages/dispatcherpage/views/bookmarksdispatcherpage.xa" +
+                    "ml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\..\Pages\DispatcherPage\Views\BookmarksDispatcherPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
