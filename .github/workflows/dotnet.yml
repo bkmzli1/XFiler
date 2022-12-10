@@ -18,18 +18,19 @@ jobs:
 
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
+      - name: Setup MSBuild Path
+        uses: warrenbuckley/Setup-MSBuild@v1  
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1.0.5
 
       - name: Restore NuGet packages
         run: nuget restore XFiler.sln
-
-      - name: Build the Solution XFiler
-        run: msbuild XFiler.sln 
+      - name: Build and Publish Web App
+        run: msbuild XFiler.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
+      
       - name: Upload Artifact
         uses: actions/upload-artifact@v3
         with:
-          name: labX
-          path: |
-            **/bin
+          name: XFiler
+          path: bin\Release\Publish
