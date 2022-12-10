@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>BKMZNETBOK</Machine>
+    <WindowsUser>48562</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>a7da146d-782f-4560-a7df-13cb0fe44270</PackageIdentityName>
+    <PackageIdentityPublisher>CN=zhelu</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\BadgeLogo.scale-100.png">
+      <PackagePath>Images\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\BadgeLogo.scale-125.png">
+      <PackagePath>Images\BadgeLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\BadgeLogo.scale-150.png">
+      <PackagePath>Images\BadgeLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\BadgeLogo.scale-200.png">
+      <PackagePath>Images\BadgeLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\BadgeLogo.scale-400.png">
+      <PackagePath>Images\BadgeLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\LargeTile.scale-100.png">
+      <PackagePath>Images\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\LargeTile.scale-125.png">
+      <PackagePath>Images\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\LargeTile.scale-150.png">
+      <PackagePath>Images\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\LargeTile.scale-200.png">
+      <PackagePath>Images\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\LargeTile.scale-400.png">
+      <PackagePath>Images\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SmallTile.scale-100.png">
+      <PackagePath>Images\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SmallTile.scale-125.png">
+      <PackagePath>Images\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SmallTile.scale-150.png">
+      <PackagePath>Images\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SmallTile.scale-200.png">
+      <PackagePath>Images\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SmallTile.scale-400.png">
+      <PackagePath>Images\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SplashScreen.scale-100.png">
+      <PackagePath>Images\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SplashScreen.scale-125.png">
+      <PackagePath>Images\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SplashScreen.scale-150.png">
+      <PackagePath>Images\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\SplashScreen.scale-400.png">
+      <PackagePath>Images\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square150x150Logo.scale-100.png">
+      <PackagePath>Images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square150x150Logo.scale-125.png">
+      <PackagePath>Images\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square150x150Logo.scale-150.png">
+      <PackagePath>Images\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square150x150Logo.scale-400.png">
+      <PackagePath>Images\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-lightunplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.scale-100.png">
+      <PackagePath>Images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.scale-125.png">
+      <PackagePath>Images\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.scale-150.png">
+      <PackagePath>Images\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.scale-400.png">
+      <PackagePath>Images\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\StoreLogo.scale-100.png">
+      <PackagePath>Images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\StoreLogo.scale-125.png">
+      <PackagePath>Images\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\StoreLogo.scale-150.png">
+      <PackagePath>Images\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\StoreLogo.scale-200.png">
+      <PackagePath>Images\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\StoreLogo.scale-400.png">
+      <PackagePath>Images\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Wide310x150Logo.scale-100.png">
+      <PackagePath>Images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Wide310x150Logo.scale-125.png">
+      <PackagePath>Images\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Wide310x150Logo.scale-150.png">
+      <PackagePath>Images\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\Images\Wide310x150Logo.scale-400.png">
+      <PackagePath>Images\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\autofac\6.3.0\lib\net5.0\Autofac.dll">
+      <PackagePath>XFiler\Autofac.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\controlzex\4.4.0\lib\netcoreapp3.1\ControlzEx.dll">
+      <PackagePath>XFiler\ControlzEx.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\dragablzf\0.1.0.1\lib\net5.0-windows7.0\Dragablz.dll">
+      <PackagePath>XFiler\Dragablz.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\egorozh.windows.fileoperations\0.1.0\lib\net6.0-windows7.0\Windows.FileOperations.dll">
+      <PackagePath>XFiler\Windows.FileOperations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\egorozh.windows.imageoperations\0.1.0\lib\net6.0-windows7.0\Windows.ImageOperations.dll">
+      <PackagePath>XFiler\Windows.ImageOperations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\fluentwpf\0.10.2\lib\netcoreapp3.0\FluentWPF.dll">
+      <PackagePath>XFiler\FluentWPF.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\gong-wpf-dragdrop\2.4.3\lib\net5.0-windows7.0\GongSolutions.WPF.DragDrop.dll">
+      <PackagePath>XFiler\GongSolutions.WPF.DragDrop.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\hardcodet.notifyicon.wpf\1.1.0\lib\net5.0-windows7.0\Hardcodet.NotifyIcon.Wpf.dll">
+      <PackagePath>XFiler\Hardcodet.NotifyIcon.Wpf.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\litedb\5.0.11\lib\netstandard2.0\LiteDB.dll">
+      <PackagePath>XFiler\LiteDB.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\mahapps.metro\2.4.9\lib\netcoreapp3.1\MahApps.Metro.dll">
+      <PackagePath>XFiler\MahApps.Metro.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\microsoft.xaml.behaviors.wpf\1.1.37\lib\net5.0-windows7.0\Microsoft.Xaml.Behaviors.dll">
+      <PackagePath>XFiler\Microsoft.Xaml.Behaviors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\prism.core\8.1.97\lib\net5.0\Prism.dll">
+      <PackagePath>XFiler\Prism.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\serilog\2.10.0\lib\netstandard2.1\Serilog.dll">
+      <PackagePath>XFiler\Serilog.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\serilog.sinks.file\5.0.0\lib\net5.0\Serilog.Sinks.File.dll">
+      <PackagePath>XFiler\Serilog.Sinks.File.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpclipboard\3.5.2\lib\netcoreapp3.0\SharpClipboard.dll">
+      <PackagePath>XFiler\SharpClipboard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Converters.Wpf.dll">
+      <PackagePath>XFiler\SharpVectors.Converters.Wpf.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Core.dll">
+      <PackagePath>XFiler\SharpVectors.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Css.dll">
+      <PackagePath>XFiler\SharpVectors.Css.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Dom.dll">
+      <PackagePath>XFiler\SharpVectors.Dom.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Model.dll">
+      <PackagePath>XFiler\SharpVectors.Model.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Rendering.Gdi.dll">
+      <PackagePath>XFiler\SharpVectors.Rendering.Gdi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Rendering.Wpf.dll">
+      <PackagePath>XFiler\SharpVectors.Rendering.Wpf.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\sharpvectors.reloaded\1.7.6\lib\net5.0-windows\SharpVectors.Runtime.Wpf.dll">
+      <PackagePath>XFiler\SharpVectors.Runtime.Wpf.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\singleinstancehelper\1.0.3\lib\netcoreapp2.1\SingleInstanceHelper.dll">
+      <PackagePath>XFiler\SingleInstanceHelper.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\system.management\6.0.0-rc.2.21480.5\lib\net6.0\System.Management.dll">
+      <PackagePath>XFiler\System.Management.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.core\3.3.14\lib\net5.0\Vanara.Core.dll">
+      <PackagePath>XFiler\Vanara.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.comctl32\3.3.14\lib\net5.0\Vanara.PInvoke.ComCtl32.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.ComCtl32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.cryptography\3.3.14\lib\net5.0\Vanara.PInvoke.Cryptography.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Cryptography.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.gdi32\3.3.14\lib\net5.0\Vanara.PInvoke.Gdi32.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Gdi32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.kernel32\3.3.14\lib\net5.0\Vanara.PInvoke.Kernel32.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Kernel32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.ole\3.3.14\lib\net5.0\Vanara.PInvoke.Ole.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Ole.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.rpc\3.3.14\lib\net5.0\Vanara.PInvoke.Rpc.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Rpc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.searchapi\3.3.14\lib\net5.0\Vanara.PInvoke.SearchApi.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.SearchApi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.security\3.3.14\lib\net5.0\Vanara.PInvoke.Security.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.shared\3.3.14\lib\net5.0\Vanara.PInvoke.Shared.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Shared.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.shell32\3.3.14\lib\net5.0\Vanara.PInvoke.Shell32.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.Shell32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.shlwapi\3.3.14\lib\net5.0\Vanara.PInvoke.ShlwApi.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.ShlwApi.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.pinvoke.user32\3.3.14\lib\net5.0\Vanara.PInvoke.User32.dll">
+      <PackagePath>XFiler\Vanara.PInvoke.User32.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.windows.shell\3.3.14\lib\net5.0\Vanara.Windows.Shell.dll">
+      <PackagePath>XFiler\Vanara.Windows.Shell.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\virtualizingwrappanel\1.5.5\lib\net5.0-windows7.0\VirtualizingWrapPanel.dll">
+      <PackagePath>XFiler\VirtualizingWrapPanel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\mahapps.metro\2.4.9\lib\netcoreapp3.1\de\MahApps.Metro.resources.dll">
+      <PackagePath>XFiler\de\MahApps.Metro.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\vanara.core\3.3.14\lib\net5.0\fr\Vanara.Core.resources.dll">
+      <PackagePath>XFiler\fr\Vanara.Core.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\system.management\6.0.0-rc.2.21480.5\runtimes\win\lib\net6.0\System.Management.dll">
+      <PackagePath>XFiler\runtimes\win\lib\net6.0\System.Management.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.27\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+      <PackagePath>XFiler\Microsoft.Windows.SDK.NET.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.27\lib\net6.0\WinRT.Runtime.dll">
+      <PackagePath>XFiler\WinRT.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\Plugins\XFiler.Base\bin\x64\Release\net6.0-windows\XFiler.Base.dll">
+      <PackagePath>XFiler\XFiler.Base.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\bin\x64\Release\net6.0-windows\XFiler.BaseStyle.dll">
+      <PackagePath>XFiler\XFiler.BaseStyle.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\Controls\XFiler.Controls\bin\x64\Release\net6.0-windows\XFiler.Controls.dll">
+      <PackagePath>XFiler\XFiler.Controls.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.GoogleChromeStyle\bin\x64\Release\net6.0-windows\XFiler.GoogleChromeStyle.dll">
+      <PackagePath>XFiler\XFiler.GoogleChromeStyle.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\SDK\XFiler.SDK\bin\x64\Release\net6.0-windows\XFiler.SDK.dll">
+      <PackagePath>XFiler\XFiler.SDK.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\Plugins\XFiler.Base\bin\x64\Release\net6.0-windows\ru\XFiler.Base.resources.dll">
+      <PackagePath>XFiler\ru\XFiler.Base.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.GoogleChromeStyle\bin\x64\Release\net6.0-windows\ru\XFiler.GoogleChromeStyle.resources.dll">
+      <PackagePath>XFiler\ru\XFiler.GoogleChromeStyle.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\SDK\XFiler.SDK\bin\x64\Release\net6.0-windows\ru\XFiler.SDK.resources.dll">
+      <PackagePath>XFiler\ru\XFiler.SDK.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Release\net6.0-windows10.0.19041.0\XFiler.deps.json">
+      <PackagePath>XFiler\XFiler.deps.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Release\net6.0-windows10.0.19041.0\apphost.exe">
+      <PackagePath>XFiler\XFiler.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Release\net6.0-windows10.0.19041.0\ru\XFiler.resources.dll">
+      <PackagePath>XFiler\ru\XFiler.resources.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Release\net6.0-windows10.0.19041.0\XFiler.runtimeconfig.json">
+      <PackagePath>XFiler\XFiler.runtimeconfig.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Release\net6.0-windows10.0.19041.0\XFiler.dll">
+      <PackagePath>XFiler\XFiler.dll</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

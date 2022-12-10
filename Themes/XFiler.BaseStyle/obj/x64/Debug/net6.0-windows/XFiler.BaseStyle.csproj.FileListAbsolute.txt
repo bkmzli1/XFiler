@@ -1,0 +1,16 @@
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\bin\x64\Debug\net6.0-windows\XFiler.BaseStyle.deps.json
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\bin\x64\Debug\net6.0-windows\XFiler.BaseStyle.dll
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\bin\x64\Debug\net6.0-windows\XFiler.BaseStyle.pdb
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\bin\x64\Debug\net6.0-windows\XFiler.SDK.dll
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\bin\x64\Debug\net6.0-windows\XFiler.SDK.pdb
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\bin\x64\Debug\net6.0-windows\ru\XFiler.SDK.resources.dll
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.AssemblyInfoInputs.cache
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.AssemblyInfo.cs
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.csproj.CoreCompileInputs.cache
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.csproj.CopyComplete
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.dll
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\refint\XFiler.BaseStyle.dll
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\XFiler.BaseStyle.pdb
+C:\Users\48562\RiderProjects\X-Filer\src\Themes\XFiler.BaseStyle\obj\x64\Debug\net6.0-windows\ref\XFiler.BaseStyle.dll

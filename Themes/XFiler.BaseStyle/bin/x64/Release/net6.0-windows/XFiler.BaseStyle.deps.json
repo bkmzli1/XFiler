@@ -1,0 +1,150 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "XFiler.BaseStyle/0.2.10": {
+        "dependencies": {
+          "XFiler.SDK": "0.2.10"
+        },
+        "runtime": {
+          "XFiler.BaseStyle.dll": {}
+        }
+      },
+      "Autofac/6.3.0": {
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "runtime": {
+          "lib/net5.0/Autofac.dll": {
+            "assemblyVersion": "6.3.0.0",
+            "fileVersion": "6.3.0.0"
+          }
+        }
+      },
+      "DragablzF/0.1.0.1": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Dragablz.dll": {
+            "assemblyVersion": "0.1.0.0",
+            "fileVersion": "0.1.0.0"
+          }
+        }
+      },
+      "gong-wpf-dragdrop/2.4.3": {
+        "runtime": {
+          "lib/net5.0-windows7.0/GongSolutions.WPF.DragDrop.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.4.3.7"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.37": {
+        "runtime": {
+          "lib/net5.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.37.31167"
+          }
+        }
+      },
+      "Prism.Core/8.1.97": {
+        "runtime": {
+          "lib/net5.0/Prism.dll": {
+            "assemblyVersion": "8.1.97.5141",
+            "fileVersion": "8.1.97.5141"
+          }
+        }
+      },
+      "Serilog/2.10.0": {
+        "runtime": {
+          "lib/netstandard2.1/Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.10.0.0"
+          }
+        }
+      },
+      "System.Diagnostics.DiagnosticSource/4.7.1": {},
+      "XFiler.SDK/0.2.10": {
+        "dependencies": {
+          "Autofac": "6.3.0",
+          "DragablzF": "0.1.0.1",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.37",
+          "Prism.Core": "8.1.97",
+          "Serilog": "2.10.0",
+          "gong-wpf-dragdrop": "2.4.3"
+        },
+        "runtime": {
+          "XFiler.SDK.dll": {}
+        },
+        "resources": {
+          "ru/XFiler.SDK.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "XFiler.BaseStyle/0.2.10": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autofac/6.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gO4bli0N8tDnBHzbYktcnbXlmN6T+IT5W+FUGgCUaM6pwwHXIxOPoUGvfGum7sZpJJgfQNgjFFv80ZPuARgRdA==",
+      "path": "autofac/6.3.0",
+      "hashPath": "autofac.6.3.0.nupkg.sha512"
+    },
+    "DragablzF/0.1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RkHThfkoQvOSD6NfNVa7Zbg3McR65UMhP0N4o++ZsaRmOJvr3/4+yjQ2J/gHPluURkGAMZzuhtn+1mtTKeI5VQ==",
+      "path": "dragablzf/0.1.0.1",
+      "hashPath": "dragablzf.0.1.0.1.nupkg.sha512"
+    },
+    "gong-wpf-dragdrop/2.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8D8/yTWOAVDeotOsVIN6w3ooLKgyGuDbx78p1F4EzOinKcjQ1ecS+SvjmjZDkXZMQFHb6LFiUkVV2Hrv121wpA==",
+      "path": "gong-wpf-dragdrop/2.4.3",
+      "hashPath": "gong-wpf-dragdrop.2.4.3.nupkg.sha512"
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.37": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TxH7g5I/4UzOHfs0GqD1W4evdl7DIHOQCr/KWc4G4BkgtsAhaHHXAW5JbKrkB7cqClN0JYOX6j9/4v4emCjFIA==",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.37",
+      "hashPath": "microsoft.xaml.behaviors.wpf.1.1.37.nupkg.sha512"
+    },
+    "Prism.Core/8.1.97": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EP5zrvWddw3eSq25Y7hHnDYdmLZEC2Z/gMrvmHzUuLbitmA1UaS7wQUlSwNr9Km8lzJNCvytFnaGBEFukHgoHg==",
+      "path": "prism.core/8.1.97",
+      "hashPath": "prism.core.8.1.97.nupkg.sha512"
+    },
+    "Serilog/2.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+QX0hmf37a0/OZLxM3wL7V6/ADvC1XihXN4Kq/p6d8lCPfgkRdiuhbWlMaFjR9Av0dy5F0+MBeDmDdRZN/YwQA==",
+      "path": "serilog/2.10.0",
+      "hashPath": "serilog.2.10.0.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j81Lovt90PDAq8kLpaJfJKV/rWdWuEk6jfV+MBkee33vzYLEUsy4gXK8laa9V2nZlLM9VM9yA/OOQxxPEJKAMw==",
+      "path": "system.diagnostics.diagnosticsource/4.7.1",
+      "hashPath": "system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+    },
+    "XFiler.SDK/0.2.10": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

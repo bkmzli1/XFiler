@@ -1,0 +1,2 @@
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\obj\Debug\XFiler.Package.wapproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler.Package\obj\Debug\XFiler.Package.wapproj.CoreCompileInputs.cache

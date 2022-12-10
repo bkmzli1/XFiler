@@ -1,0 +1,707 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler.Package\\XFiler.Package.wapproj": {}
+  },
+  "projects": {
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
+      "version": "0.2.10",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj",
+        "projectName": "XFiler.Controls",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj",
+        "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj": {
+      "version": "0.2.10",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj",
+        "projectName": "XFiler.Base",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj",
+        "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj"
+              },
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "PropertyChanged.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "SharpVectors.Reloaded": {
+              "target": "Package",
+              "version": "[1.7.6, )"
+            },
+            "VirtualizingWrapPanel": {
+              "target": "Package",
+              "version": "[1.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+      "version": "0.2.10",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
+        "projectName": "XFiler.SDK",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj",
+        "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
+            "DragablzF": {
+              "target": "Package",
+              "version": "[0.1.0.1, )"
+            },
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.37, )"
+            },
+            "Prism.Core": {
+              "target": "Package",
+              "version": "[8.1.97, )"
+            },
+            "PropertyChanged.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "gong-wpf-dragdrop": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {
+      "version": "0.2.10",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
+        "projectName": "XFiler.BaseStyle",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj",
+        "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj": {
+      "version": "0.2.10",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj",
+        "projectName": "XFiler.GoogleChromeStyle",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj",
+        "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj"
+              },
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "FluentWPF": {
+              "target": "Package",
+              "version": "[0.10.2, )"
+            },
+            "MahApps.Metro": {
+              "target": "Package",
+              "version": "[2.4.9, )"
+            },
+            "VirtualizingWrapPanel": {
+              "target": "Package",
+              "version": "[1.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler.Package\\XFiler.Package.wapproj": {
+      "version": "0.2.10",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler.Package\\XFiler.Package.wapproj",
+        "projectName": "XFiler.Package",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler.Package\\XFiler.Package.wapproj",
+        "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler.Package\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net451"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "uap10.0.17134": {
+            "targetAlias": "net451",
+            "projectReferences": {
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "noWarn": [
+            "NU1702"
+          ]
+        }
+      },
+      "frameworks": {
+        "uap10.0.17134": {
+          "targetAlias": "net451",
+          "dependencies": {
+            "Microsoft.Windows.SDK.BuildTools": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.22414.2000-preview.rs-prerelease, )"
+            }
+          },
+          "imports": [
+            "netcoreapp3.1",
+            "netcoreapp3.0",
+            "netcoreapp2.0",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net7.0-windows10.0.20348",
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win10-arm": {
+          "#import": []
+        },
+        "win10-arm-aot": {
+          "#import": []
+        },
+        "win10-arm64-aot": {
+          "#import": []
+        },
+        "win10-x64": {
+          "#import": []
+        },
+        "win10-x64-aot": {
+          "#import": []
+        },
+        "win10-x86": {
+          "#import": []
+        },
+        "win10-x86-aot": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj": {
+      "version": "0.2.10",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj",
+        "projectName": "XFiler",
+        "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj",
+        "packagesPath": "C:\\Users\\48562\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\48562\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows10.0.19041.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows10.0.19041": {
+            "targetAlias": "net6.0-windows10.0.19041.0",
+            "projectReferences": {
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj"
+              },
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj"
+              },
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\SDK\\XFiler.SDK\\XFiler.SDK.csproj"
+              },
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.BaseStyle\\XFiler.BaseStyle.csproj"
+              },
+              "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj": {
+                "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Themes\\XFiler.GoogleChromeStyle\\XFiler.GoogleChromeStyle.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows10.0.19041": {
+          "targetAlias": "net6.0-windows10.0.19041.0",
+          "dependencies": {
+            "Egorozh.Windows.FileOperations": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Egorozh.Windows.ImageOperations": {
+              "target": "Package",
+              "version": "[0.1.0, )"
+            },
+            "Hardcodet.NotifyIcon.Wpf": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "PropertyChanged.Fody": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "SharpClipboard": {
+              "target": "Package",
+              "version": "[3.5.2, )"
+            },
+            "SingleInstanceHelper": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[6.0.0-rc.2.21480.5, )"
+            },
+            "Vanara.Windows.Shell": {
+              "target": "Package",
+              "version": "[3.3.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            },
+            {
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.19041.27, 10.0.19041.27]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.11, 6.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.Windows.SDK.NET.Ref": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
