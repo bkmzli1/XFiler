@@ -45,7 +45,7 @@ jobs:
             DistributionUrl:
             MsixPackageId: MyWPFApp.DevOpsDemo.ProdStore
             MsixPublisherId: CN=GitHubActionsDemo
-            MsixPackageDisplayName: MyWPFApp (ProdStore)
+            MsixPackageDisplayName: XFiler (ProdStore)
 
     runs-on: windows-latest
 
@@ -54,8 +54,8 @@ jobs:
       App_Packages_Directory: AppPackages
       SigningCertificate: GitHubActionsDemo.pfx
       Solution_Path: XFiler.sln
-      Test_Project_Path: MyWpfApp.Tests\MyWpfApp.Tests.csproj
-      Wpf_Project_Path: MyWpfApp\MyWpfApp.csproj
+      Test_Project_Path: XFiler.Tests\XFiler.Tests.csproj
+      Wpf_Project_Path: XFiler\XFiler.csproj
       Wap_Project_Directory: XFiler.Package
       Wap_Project_Name: XFiler.Package.wapproj
       Actions_Allow_Unsecure_Commands: true # Allows AddPAth and SetEnv commands
