@@ -1,0 +1,118 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:XFiler.GoogleChromeStyle"
+                    xmlns:loc="clr-namespace:XFiler.GoogleChromeStyle.Localization"
+                    xmlns:vc="clr-namespace:XFiler.GoogleChromeStyle.ValueConverters"
+                    xmlns:themes="clr-namespace:XFiler.SDK.Themes;assembly=XFiler.SDK"
+                    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Buttons11.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+
+    <!--#region Main Window-->
+
+    <ControlTemplate x:Key="GoogleChromeWindowTemplate"
+                     TargetType="Window">
+
+        <Grid Background="#01FFFFFF">
+            <AdornerDecorator>
+                <Border Padding="{TemplateBinding Padding}"
+                        BorderBrush="Transparent"
+                        Margin="{TemplateBinding Margin}"
+                        BorderThickness="{TemplateBinding BorderThickness}">
+
+                    <mah:ClipBorder BorderBrush="{TemplateBinding BorderBrush}"
+                                    CornerRadius="{Binding Path=(local:WindowProperties.CornerRadius),
+                                RelativeSource={RelativeSource AncestorType=Window}}"
+                                    Background="{TemplateBinding Background}"
+                                    BorderThickness="{Binding WindowState,
+                        RelativeSource={RelativeSource AncestorType={x:Type Window}},
+                        Converter={vc:WindowBorderThicknessConverter},
+                        ConverterParameter=1}">
+                        <Grid>
+
+                            <ContentPresenter />
+
+                            <!-- #region Title Bar-->
+                            <Grid HorizontalAlignment="Stretch"
+                                  VerticalAlignment="Top"
+                                  Height="{Binding WindowState, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}} ,Converter={vc:WindowTitleHeightConverter}}">
+
+                                <StackPanel WindowChrome.IsHitTestVisibleInChrome="True"
+                                            HorizontalAlignment="Right"
+                                            VerticalAlignment="Top"
+                                            Orientation="Horizontal">
+
+                                    <Button Command="{x:Static local:WindowButtonCommands.CollapseCommand}"
+                                            CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
+                                            Style="{StaticResource CollapseButtonStyle}"
+                                            ToolTip="{x:Static loc:Strings.MainWindow_Buttons_CollapseTooltip}" />
+
+                                    <Button Command="{x:Static local:WindowButtonCommands.ExpandCommand}"
+                                            CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
+                                            Style="{StaticResource ExpandButtonStyle}" />
+
+                                    <Button Command="{x:Static local:WindowButtonCommands.CloseCommand}"
+                                            CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"
+                                            ToolTip="{x:Static loc:Strings.MainWindow_Buttons_CloseTooltip}"
+                                            Style="{StaticResource MainCloseButtonStyle}" />
+
+                                </StackPanel>
+                            </Grid>
+                            <!--#endregion-->
+                        </Grid>
+                    </mah:ClipBorder>
+                </Border>
+            </AdornerDecorator>
+        </Grid>
+
+        <ControlTemplate.Triggers>
+            <MultiTrigger>
+                <MultiTrigger.Conditions>
+                    <Condition Property="IsActive" Value="True" />
+                    <Condition Property="WindowState" Value="Normal" />
+                </MultiTrigger.Conditions>
+                <MultiTrigger.Setters>
+                    <Setter Property="Effect">
+                        <Setter.Value>
+                            <DropShadowEffect BlurRadius="10"/>
+                        </Setter.Value>
+                    </Setter>
+                </MultiTrigger.Setters>
+            </MultiTrigger>
+        </ControlTemplate.Triggers>
+
+    </ControlTemplate>
+
+    <Style TargetType="Window"
+           x:Key="{x:Static themes:ResourceKeys.MainWindowStyle}">
+
+        <Setter Property="WindowStyle" Value="None" />
+        <Setter Property="AllowsTransparency" Value="True" />
+
+        <Setter Property="MinWidth" Value="500" />
+        <Setter Property="MinHeight" Value="120" />
+        <Setter Property="Width" Value="1024" />
+        <Setter Property="Height" Value="720" />
+        <Setter Property="BorderBrush" Value="#555555" />
+
+        <Setter Property="Background" Value="#111111" />
+
+        <Setter Property="Template" Value="{StaticResource GoogleChromeWindowTemplate}" />
+
+        <Setter Property="WindowChrome.WindowChrome">
+            <Setter.Value>
+                <WindowChrome CornerRadius="0"
+                              CaptionHeight="{Binding WindowState, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}} ,Converter={vc:WindowTitleHeightConverter}}"
+                              ResizeBorderThickness="{Binding BorderThickness, RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}}"
+                              GlassFrameThickness="0" />
+            </Setter.Value>
+        </Setter>
+
+        <Setter Property="local:WindowResizeFixerBehavior.IsEnabledForStyle" Value="True" />
+    </Style>
+
+    <!--#endregion-->
+
+</ResourceDictionary>

@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "oBXmB8HsnaD4xcRJAWq1ixHko289ZDxAr9jlBbySP/1GI+7yKxZycyUZABMRQrbeVYXA51sXekmjXbmrYw5yjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\48562\\.nuget\\packages\\autofac\\6.3.0\\autofac.6.3.0.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\dragablzf\\0.1.0.1\\dragablzf.0.1.0.1.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\fody\\6.5.1\\fody.6.5.1.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\gong-wpf-dragdrop\\2.4.3\\gong-wpf-dragdrop.2.4.3.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\mahapps.metro\\2.4.9\\mahapps.metro.2.4.9.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.37\\microsoft.xaml.behaviors.wpf.1.1.37.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\prism.core\\8.1.97\\prism.core.8.1.97.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\serilog\\2.10.0\\serilog.2.10.0.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\sharpvectors.reloaded\\1.7.6\\sharpvectors.reloaded.1.7.6.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\virtualizingwrappanel\\1.5.5\\virtualizingwrappanel.1.5.5.nupkg.sha512"
+  ],
+  "logs": []
+}
