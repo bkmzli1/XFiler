@@ -65,7 +65,7 @@ namespace XFiler {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/XFiler;component/pages/settings/views/settingspage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/XFiler;V0.2.10.0;component/pages/settings/views/settingspage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\..\Pages\Settings\Views\SettingsPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
