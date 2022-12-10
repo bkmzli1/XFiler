@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Di2CmPuVordVQ77XF36WUtmkWatd3FhYvNrSyq05X4uWWwMtGNC2LiKIrGpipwM2MxoXiRDki1tyEv8RGhUvwQ==",
+  "dgSpecHash": "0mzJLMvwTfJ1YFIKQ/yCxQNUAipZqLxwNHmk3fF/rgd4j27jK8C2kzuVA5IbhJKkiCmffOv4UU0sXZrEYxFo9w==",
   "success": true,
   "projectFilePath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\XFiler\\XFiler.csproj",
   "expectedPackageFiles": [
@@ -48,11 +48,11 @@
     "C:\\Users\\48562\\.nuget\\packages\\vanara.pinvoke.user32\\3.3.14\\vanara.pinvoke.user32.3.3.14.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\vanara.windows.shell\\3.3.14\\vanara.windows.shell.3.3.14.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\virtualizingwrappanel\\1.5.5\\virtualizingwrappanel.1.5.5.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
     "C:\\Users\\48562\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.27\\microsoft.windows.sdk.net.ref.10.0.19041.27.nupkg.sha512",
-    "C:\\Users\\48562\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\48562\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.27\\microsoft.windows.sdk.net.ref.10.0.19041.27.nupkg.sha512"
   ],
   "logs": []
 }

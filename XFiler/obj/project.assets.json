@@ -2264,6 +2264,7 @@
       "Vanara.Windows.Shell >= 3.3.14",
       "XFiler.Base >= 0.2.10",
       "XFiler.BaseStyle >= 0.2.10",
+      "XFiler.Controls >= 0.2.10",
       "XFiler.GoogleChromeStyle >= 0.2.10",
       "XFiler.SDK >= 0.2.10"
     ]
@@ -2300,6 +2301,9 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
+            "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj": {
+              "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Controls\\XFiler.Controls\\XFiler.Controls.csproj"
+            },
             "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj": {
               "projectPath": "C:\\Users\\48562\\RiderProjects\\X-Filer\\src\\Plugins\\XFiler.Base\\XFiler.Base.csproj"
             },

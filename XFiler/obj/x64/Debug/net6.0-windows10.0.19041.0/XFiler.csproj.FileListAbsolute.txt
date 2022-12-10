@@ -54,11 +54,11 @@ C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.Controls.dll
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.GoogleChromeStyle.dll
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.SDK.dll
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.Controls.pdb
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.BaseStyle.pdb
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.Base.pdb
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.GoogleChromeStyle.pdb
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.SDK.pdb
-C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\XFiler.Controls.pdb
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\ru\XFiler.Base.resources.dll
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\ru\XFiler.GoogleChromeStyle.resources.dll
 C:\Users\48562\RiderProjects\X-Filer\src\XFiler\bin\x64\Debug\net6.0-windows10.0.19041.0\ru\XFiler.SDK.resources.dll

@@ -8,6 +8,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<ProjectReference Include="..\Controls\XFiler.Controls\XFiler.Controls.csproj" />
 		<ProjectReference Include="..\Themes\XFiler.BaseStyle\XFiler.BaseStyle.csproj" />
 		<ProjectReference Include="..\Plugins\XFiler.Base\XFiler.Base.csproj" />
 		<ProjectReference Include="..\Themes\XFiler.GoogleChromeStyle\XFiler.GoogleChromeStyle.csproj" />
