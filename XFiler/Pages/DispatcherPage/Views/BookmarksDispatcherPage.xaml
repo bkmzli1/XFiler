@@ -1,0 +1,106 @@
+﻿<UserControl x:Class="XFiler.DispatcherPage.BookmarksDispatcherPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:sdk="clr-namespace:XFiler.SDK;assembly=XFiler.SDK"
+             xmlns:dd="urn:gong-wpf-dragdrop"
+             xmlns:xFiler="clr-namespace:XFiler"
+             xmlns:controls="clr-namespace:XFiler.Controls;assembly=XFiler.Controls"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+   
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="2*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0"
+              DataContext="{Binding BookmarksManager}">
+
+            <Grid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Добавить папку"
+                              Command="{Binding AddFolderCommand}" />
+                    <MenuItem Header="Удалить"
+                              Command="{Binding RemoveCommand}" />
+                </ContextMenu>
+            </Grid.ContextMenu>
+
+            <TreeView ItemsSource="{Binding Bookmarks}"
+                      Background="Transparent"
+
+                      dd:DragDrop.DropScrollingMode="VerticalOnly"
+                      dd:DragDrop.IsDragSource="True"
+                      dd:DragDrop.IsDropTarget="True"
+                      dd:DragDrop.UseDefaultEffectDataTemplate="True"
+                      dd:DragDrop.DragDirectlySelectedOnly="True"
+                      dd:DragDrop.UseDefaultDragAdorner="True"
+
+                      dd:DragDrop.DropHandler="{Binding DropTarget}"
+                      dd:DragDrop.DragHandler="{Binding DragSource}">
+                <TreeView.ItemContainerStyle>
+                    <Style TargetType="TreeViewItem" BasedOn="{StaticResource {x:Type TreeViewItem}}">
+                        <Setter Property="IsSelected" Value="{Binding IsSelected, Mode=TwoWay}" />
+                        <Setter Property="Background" Value="Transparent" />
+                    </Style>
+                </TreeView.ItemContainerStyle>
+                <TreeView.ItemTemplate>
+                    <HierarchicalDataTemplate ItemsSource="{Binding Items}">
+                        <StackPanel Orientation="Horizontal">
+                            <ContentControl Width="22"
+                                            Margin="2"
+                                            Height="22">
+                                <ContentControl.Content>
+                                    <MultiBinding Converter="{sdk:IconConverter}">
+                                        <Binding Path="." />
+                                        <Binding Path="IconLoader" />
+                                    </MultiBinding>
+                                </ContentControl.Content>
+                            </ContentControl>
+
+                            <controls:EditBox Style="{StaticResource TreeViewEditBox}"
+
+                                              IsEditableOnDoubleClick="True"
+                                              IsReadOnly="{Binding ., Converter={xFiler:MenuItemIsReadonlyConverter}}"
+                                              Focusable="True"
+                                              RenameCommand="{Binding RenameCommand}"
+                                              RenameCommandParameter="{Binding}"
+                                              Margin="0 4 0 0"
+                                              DisplayText="{Binding Header, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}"
+                                              Text="{Binding Header, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                        </StackPanel>
+                    </HierarchicalDataTemplate>
+                </TreeView.ItemTemplate>
+            </TreeView>
+        </Grid>
+
+        <GridSplitter Width="5"
+                      Grid.Column="1"
+                      ShowsPreview="False" />
+
+        <Grid Grid.Column="2"
+              DataContext="{Binding BookmarksManager.SelectedItem}">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Заголовок"
+                       VerticalAlignment="Center" />
+            <TextBox Grid.Row="0" Grid.Column="1"
+                     Margin="2"
+                     Text="{Binding Header}" />
+        </Grid>
+
+    </Grid>
+</UserControl>

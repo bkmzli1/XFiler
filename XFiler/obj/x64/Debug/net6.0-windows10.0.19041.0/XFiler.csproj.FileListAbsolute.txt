@@ -1,0 +1,13 @@
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler.csproj.AssemblyReference.cache
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\Pages\Search\Views\SearchPage.baml
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\Pages\Settings\Views\SettingsPage.baml
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\Resources\Icons.baml
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\App.baml
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\Pages\MyComputer\Views\MyComputerPage.g.cs
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\Pages\Search\Views\SearchPage.g.cs
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\Pages\Settings\Views\SettingsPage.g.cs
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\Windows\MainWindow.g.cs
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\App.g.cs
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\GeneratedInternalTypeHelper.g.cs
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler_MarkupCompile.cache
+C:\Users\48562\RiderProjects\X-Filer\src\XFiler\obj\x64\Debug\net6.0-windows10.0.19041.0\XFiler_MarkupCompile.lref

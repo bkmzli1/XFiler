@@ -1,0 +1,25 @@
+﻿[
+  {
+    "Path": "C:\\"
+  },
+  {
+    "Path": "P:\\"
+  },
+  {
+    "Path": "xfiler://mycomputer"
+  },
+  {
+    "Path": "https://www.youtube.com/"
+  },
+  {
+    "BookmarkFolderName": "Games",
+    "Children": [
+      {
+        "Path": "D:\\"
+      },
+      {
+        "Path": "E:\\"
+      }
+    ]
+  }
+]
